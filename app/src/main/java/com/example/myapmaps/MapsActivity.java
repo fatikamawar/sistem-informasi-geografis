@@ -53,7 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(home).title("Home").
                 snippet("Fatika Mawar").icon(BitmapFromVector(getApplicationContext(),R.drawable.start)));
         mMap.addMarker(new MarkerOptions().position(alfamidi).title("AlfaMidi").
-                snippet("Faika Mawar").icon(BitmapFromVector(getApplicationContext(),R.drawable.finisih)));
+                snippet("Fatika Mawar").icon(BitmapFromVector(getApplicationContext(),R.drawable.finisih)));
         mMap.addPolyline(new PolylineOptions().add(
                 home,
                 new LatLng(-2.822990, 120.142978),
